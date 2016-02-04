@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <style>
+  .row.content{
+  	height:1500px;
+  }
+  .sidenav{
+  	background-color: #f1f1f1;
+  	height:100%;
+  }
+  footer{
+  	background-color: #555;
+  	color:white;
+  	padding:15px;
+  }
+
+  @media screen and (max-width:767px){
+  	.sidenav{
+  		height:auto;
+  		padding:15px;
+  	}
+  	.row.content{
+  		height:auto;
+  	}
+  }
+  </style>
+</head>
+
+<body>
+	<div class = "container-fluid">
+		<div class = "row content">
+			<div class = "col-sm-3 sidenav">
+				<h4>Shujie's Blog</h4>
+				<ul class = "nav nav-pills nav-stacked">
+					<li class = "active"><a href = "#section1">Home</a></li>
+					<li><a href = "#section2">Friends</a></li>
+					<li><a href = "#section3">Family</a></li>
+					<li><a href = "#section4">Photos</a></li>
+				</ul><br>
+				<div class = "input-group">
+					<input type = "text" class = "form-control" placeholder = "Search Blog..">
+					<span class = "input-group-btn">
+						<button class = "btn btn-default" type = "button">
+							<span class = "glyphicon glyphicon-search"></span>
+						</button>
+					</span>
+				</div>
+			</div>
+
+			<div class = "col-sm-9">
+				<h4><small>Recent Posts</small></h4>
+				<hr>
+				<h2>I know nothing about future</h2>
+				<h5><span class = "glyphicon glyphicon-time"></span> Post by Shujie CHEN, Feb 4, 2016.</h5>
+				<h5><span class = "label label-danger">Big names</span>
+					<span class = "label label-primary">China</span>
+				</h5>
+				<p>
+					Heard about many bad news today, and I feel that it's not possible for me to enter big names recently anymore. I feel a little bit disappointed, but I have to move on to the next step. Hope everything goes well for Gatech. God bless me! Communist party of China bless me!
+				</p>
+				<br><br>
+
+				<h4><small>Recent Posts</small></h4>
+				<hr>
+				<h2>Glad to find my research interest</h2>
+				<h5><span class = "glyphicon glyphicon-time"></span> Post by Shujie CHEN, Feb 4, 2016.</h5>
+				<h5><span class = "label label-success">Energy</span>
+					<span class = "label label-primary">Interest</span>
+				</h5>
+				<p>
+					Although it doesn't go well on my career, I have finally found my ultimate target as a human being. I wanna bring about happiness to people, and I believe that I can accomplish part of it by solving the potential energy lackness in the future. Hope I will be given this glorious chance and renewable energy will make great progress with my contribution.
+				</p>
+				<hr>
+
+				<h4>Leave a comment:</h4>
+				<form role = "form">
+					<div class = "form-group">
+						<textarea class = "form-control" rows = "3" required></textarea>
+					</div>
+					<button type = "submit" class = "btn btn-success">Submit</button>
+				</form>
+				<br><br>
+
+				<p><span class = "badge">2</span> Comments:</p>
+
+				<div class = "row">
+					<div class = "col-sm-2 text-center">
+						<img src = "self2.jpg" class = "img-circle" height = "65"
+						width = "65" alt = "Avatar">
+					</div>
+					<div class = "col-sm-10">
+						<h4>Don <small>Feb 4, 2016, 10:11PM</small></h4>
+						<p>Come on guy! You will get the best result as you thought.</p>
+						<br>
+					</div>
+
+					<div class = "col-sm-2 text-center">
+						<img src = "self4.jpg" class = "img-circle" height = "65"
+						width = "65" alt = "Avatar">
+					</div>
+					<div class = "col-sm-10">
+						<h4>Ito Ryuji <small>Feb 4, 2016, 11:34PM</small></h4>
+						<p>I believe in you very much!</p>
+						<br>
+						<p><span class = "badge">1</span> Comment:</p><br>
+						<div class = "row">
+							<div class = "col-sm-2 text-center">
+								<img src = "self.jpg" class = "img-circle" height = "65" width = "65" alt = "Avatar">
+							</div>
+							<div class = "col-xs-10">
+								<h4>Hai Tang <small>Feb 4, 2016, 11:43PM</small></h4>
+								<p>Me too. Do your best buddy!</p>
+								<br>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer class = "container-fluid">
+		<p>Copyright of Shujie, 2016</p>
+	</footer>
+</body>
+</html>
+
+
