@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <style>
+  footer{
+  	background-color: #555;
+  	color: white;
+  	padding: 15px;
+  }
+  </style>
+</head>
+<body>
+	<nav class = "navbar navbar-inverse">
+		<div class = "container-fluid">
+			<div class = "navbar-header">
+				<button type = "button" class = "navbar-toggle" data-toggle = "collapse" data-target = "#myNavbar">
+					<span class = "icon-bar"></span>
+					<span class = "icon-bar"></span>
+					<span class = "icon-bar"></span>
+				</button>
+				<a class = "navbar-brand" href = "#">Logo</a>
+			</div>
+
+			<div class = "collapse navbar-collapse" id = "myNavbar">
+				<ul class = "nav navbar-nav">
+					<li class = "active"><a href = "#">Home</a></li>
+					<li><a href= "#">Messages</a></li>
+				</ul>
+				<form class = "navbar-form navbar-right" role = "search">
+					<div class = "form-group input-group">
+						<input type = "text" class = "form-control" placeholder = "Search">
+						<span class = "input-group-btn">
+							<button class = "btn btn-default" type = "button">
+								<span class = "glyphicon glyphicon-search"></span>
+							</button>
+						</span>
+					</div>
+				</form>
+
+				<ul class = "nav navbar-nav navbar-right">
+					<li><a href = "#"><span class = "glyphicon glyphicon-user"></span>
+						My Account</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div class = "container text-center">
+		<div class = "row">
+			<div class = "col-sm-3 well">
+				<div class = "well">
+					<p><a href = "#">My Profile</a></p>
+					<img src = "self.jpg" class = "img-circle" height = "65"
+					width = "65" alt = "Avatar">
+				</div>
+
+				<div class = "well">
+					<p><a href = "#">Interests</a></p>
+					<p>
+						<span class = "label label-default">BIO</span>
+						<span class = "label label-primary">ECE</span>
+						<span class = "label label-success">CHE</span>
+						<span class = "label label-info">CS</span>
+						<span class = "label label-warning">CIVIL</span>
+						<span class = "label label-dange">MBA</span>
+					</p>
+				</div>
+
+
+				<div class = "alert alert-success fade in">
+					<a href = "#" class = "close" data-miss = "alert"
+					aria-label = "close">x</a>
+					<p><strong>Cool!</strong>
+					Someone have looked your blog!
+				</div>
+			</div>
+
+				<div class = "col-sm-7">
+					<div class = "row">
+						<div class = "col-sm-12">
+							<div class = "panel panel-default text-left">
+								<div class = "panel-body">
+									<p contenteditable = "true">Status: Feeling Blue</p>
+									<button type = "button" class = "btn btn-default
+									btn-sm">
+									<span class ="glyphicon glyphicon-thumbs-up"></span> Like</button>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class = "row">
+						<div class = "col-sm-3">
+							<div class = "well">
+								<p>Yuxiu</p>
+								<img src = "self.jpg" class = "img-circle" height = "55" width = "55" alt = "Avatar">
+							</div>
+						</div>
+
+						<div class = "col-sm-9">
+							<div class = "well">
+								<p>Who knows about the future?</p>
+							</div>
+						</div>
+					</div>
+
+					<div class = "row">
+						<div class = "col-sm-3">
+							<div class = "well">
+								<p>Yusheng</p>
+								<img src = "self.jpg" class = "img-circle" height = "55" width = "55" alt = "Avatar">
+							</div>
+						</div>
+
+						<div class = "col-sm-9">
+							<div class = "well">
+								<p>Don't give up that early.</p>
+							</div>
+						</div>
+					</div>
+
+					<div class = "row">
+						<div class = "col-sm-3">
+							<div class = "well">
+								<p>David.E</p>
+								<img src = "self.jpg" class = "img-circle" height = "55" width = "55" alt = "Avatar">
+							</div>
+						</div>
+
+						<div class = "col-sm-9">
+							<div class = "well">
+								<p>Chances are still there.</p>
+							</div>
+						</div>
+					</div>
+
+					<div class = "row">
+						<div class = "col-sm-3">
+							<div class = "well">
+								<p>Luogeng</p>
+								<img src = "self.jpg" class = "img-circle" height = "55" width = "55" alt = "Avatar">
+							</div>
+						</div>
+
+						<div class = "col-sm-9">
+							<div class = "well">
+								<p>Never stop working for our people.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class = "col-sm-2 well">
+					<div class = "thumbnail">
+						<p>Upcoming Events:</p>
+						<img src = "amazon.png" alt = "amazon" width = "300"
+						height = "300">
+						<p><strong>Amazon</strong></p>
+						<p>Interview</p>
+						<button class = "btn btn-primary">Info</button>
+					</div>
+
+					<div class = "thumbnail">
+						<p>Upcoming Events:</p>
+						<img src = "gatech.jpeg" alt = "gatech" width = "300"
+						height = "300">
+						<p><strong>Gatech</strong></p>
+						<p>Admission</p>
+						<button class = "btn btn-primary">Info</button>
+					</div>
+
+					<div class = "well">
+						<p>ADS</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer class = "container-fluid text-center">
+		<p>Copyright of Shujie CHEN 2016</p>
+	</footer>
+</body>
+</html>
