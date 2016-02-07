@@ -134,5 +134,52 @@
     color: #fff !important;
   }
   .navbar-nav li a:hover, .navbar-nav li.active a{
-    
+    color:#f4511e !important;
+    background-color: #fff !important;
   }
+  .navbar-default .navbar-toggle{
+    border-color: transparent;
+    color: #fff !important;
+  }
+  footer .glyphicon{
+    font-size: 20px;
+    margin-bottom: 20px;
+    color:#f4511e;
+  }
+  .slideanim{
+    visibility: hidden;
+  }
+  .slide{
+    animation-name: slide;
+    -webkit-animation-name:slide;
+    animation-duration:1s;
+    visibility: visible;
+  }
+  @keyframes slide{
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    }
+    100%{
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+  @-webkit-keyframes slide{
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    }
+    100%{
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+  @media screen and (max-width: 768px){
+    .logo {
+      font-size: 150px;
+    }
+  }
+  </style>
+</head>
+<body id = "myPage" data
