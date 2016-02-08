@@ -31,7 +31,7 @@
     margin-bottom: 30px;
   }
   .jumbotron{
-    background-color: #f4511e;
+    background-color: #67E284;
     color:#fff;
     padding:100px 25px;
     font-family: Montserrat, sans-serif;
@@ -43,13 +43,14 @@
     background-color: #f6f6f6;
   }
   .logo-small{
-    color:#f4511e;
+    color:#67E284;
     font-size: 50px;
   }
   .logo{
-    color:#f4511e;
+    color:#67E284;
     font-size:200px;
   }
+
   .thumbnail{
     padding: 0 0 15px 0;
     border: none;
@@ -62,13 +63,13 @@
   }
   .carousel-control.right, .carousel-control.left{
     background-image:none;
-    color:#f4511e;
+    color:#67E284;
   }
   .carousel-indicators li{
-    border-color: #f4511e;
+    border-color: #67E284;
   }
   .carousel-indicators li.active{
-    background-color: #f4511e;
+    background-color: #67E284;
   }
   .item h4{
     font-size: 19px;
@@ -81,7 +82,7 @@
     font-style: normal;
   }
   .panel{
-    border:1px solid #f4511e;
+    border:1px solid #67E284;
     background-color: #fff !important;
     transition: box-shadow 0.5s;
   }
@@ -89,13 +90,13 @@
     box-shadow: 5px 0px 40px rgba(0,0,0,.2);
   }
   .panel-footer .btn:hover{
-    border: 1px solid #f4511e;
+    border: 1px solid #67E284;
     background-color: #fff !important;
-    color:#f4511e;
+    color:#67E284;
   }
   .panel-heading{
     color:#fff !important;
-    background-color: #f4511e !important;
+    background-color: #67E284 !important;
     padding: 25px;
     border-bottom: 1px solid transparent;
     border-top-left-radius: 0px;
@@ -115,12 +116,12 @@
   }
   .panel-footer .btn{
     margin: 15px 0;
-    background-color: #f4511e;
+    background-color: #67E284;
     color:#fff;
   }
   .navbar{
     margin-bottom: 0;
-    background-color: #f4511e;
+    background-color: #67E284;
     z-index:9999;
     border:0;
     font-size: 12px !important;
@@ -134,8 +135,11 @@
     color: #fff !important;
   }
   .navbar-nav li a:hover, .navbar-nav li.active a{
-    color:#f4511e !important;
+    color:#67E284 !important;
     background-color: #fff !important;
+  }
+  .logo-br{
+    margin-top: -15px;
   }
   .navbar-default .navbar-toggle{
     border-color: transparent;
@@ -144,7 +148,7 @@
   footer .glyphicon{
     font-size: 20px;
     margin-bottom: 20px;
-    color:#f4511e;
+    color:#67E284;
   }
   .slideanim{
     visibility: hidden;
@@ -182,4 +186,353 @@
   }
   </style>
 </head>
-<body id = "myPage" data
+<body id = "myPage" data-spy = "scroll" data-offset = "60">
+  <nav class = "navbar navbar-default navbar-fixed-top">
+    <div class = "container">
+      <div class = "navbar-header">
+        <button type = "button" class = "navbar-toggle" data-toggle = "collapse" data-target = "#myNavbar">
+          <span class = "icon-bar"></span>
+          <span class = "icon-bar"></span>
+          <span class = "icon-bar"></span>
+        </button>
+        <a class = "navbar-brand" href = "#myPage">
+          Logo</a>
+      </div>
+      <div class = "collapse navbar-collapse" id = "myNavbar">
+        <ul class = "nav navbar-nav navbar-right">
+          <li><a href = "#about">ABOUT</a></li>
+          <li><a href = "#services">SERVICES</a></li>
+          <li><a href = "#portfolio">PROTFOLIO</a></li>
+          <li><a href = "#contact">CONTACT</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class = "jumbotron text-center">
+    <h1>Yes Tech and Eng Services</h1> 
+    <p>We specialize in renewable technologies</p> 
+    <form class = "form-inline">
+      <input type = "email" class = "form-control" size = "50" placeholder = "Email Address" required>
+      <button type = "button" class = "btn btn-success">Subscribe</button>
+    </form>
+  </div>
+
+  <!--container-->
+  <div id = "about" class = "container-fluid">
+    <div class = "row">
+      <div class = "col-sm-8">
+        <h2>About Our Company</h2><br>
+        <h4>Our main services are concentrated in the following fields: commercial fuel cells, ultraconductors, distributed tidal energy system. And we are now expanding our research and service in bomass & biofuels cultivation, fermentation process and alkaline land remediation.</h4>
+        <p>Besides the commerical products like personal scaled solar panels and ultraconductor based batteries which are already commonly used by billions of users, so far we have already been responsible for two national renewable energy projects: Solar Power Generator on Taklimakan Desert in South Xinjiang and Tidal Energy Power Station of Tai-O in Hong Kong. And our recent plan is going to remediate the alkaline soil on which we will cultivate biomass and biofuel oriented crops in Gansu. We are also looking for qualified experts and new grads who are specilized in science and engineering fields (mainly in Electricial Engineering, Mechanical Engineering, Civil and Hydraulic Engineering, Computer Science, Material Science, Chemical Engineering and Biotechnology) to join our team. Interested? Please contact us!</p>
+        <br><button class = "btn btn-default btn-lg" href = "#contact">Get in Touch</button>
+      </div>
+      <div class = "col-sm-4">
+        <span class = "glyphicon glyphicon-signal logo"></span>
+      </div>
+    </div>
+  </div>
+
+  <div class = "container-fluid bg-grey">
+    <div class = "row">
+      <div class = "col-sm-4">
+        <span class="glyphicon glyphicon-globe logo slideanim"></span>
+      </div>
+      <div class="col-sm-8">
+        <h2>Our Values</h2><br>
+        <h4><strong>MISSION:</strong> Our mission is to making money by protecting the environment and this world. For us, environmtnal friendness and development of technology are of the same importance. We hope that with our technology, both human beings and the nature will grow in a healthy and harmonious way.</h4><br>
+        <p><strong>VISION:</strong> Our vision expands further than any specialized technology field, because we know environmental engineering and technology is a comprehensive field and is (or should be) composed of different technicals. The traditional environmental technologies made benefit mainly from government's financial aid and NGO's support. We believe that a field will never be really developed until it is profitable. So our research emphasis has been and will always be concentrated on those profitable or potentially profitable technologies.</p>
+      </div>
+    </div>
+  </div>
+
+  <!--container(Services Section)-->
+  <div id = "services" class = "container-fluid text-center">
+    <h2>SERVICES</h2>
+    <h4>What we offer</h4>
+    <br>
+    <div class = "row slideanim">
+      <div class = "col-sm-4">
+        <span class = "glyphicon glyphicon-off logo-small"></span>
+        <h4>POWER</h4>
+        <p>Large scale distributed renewable power systems..</p>
+      </div>
+
+      <div class = "col-sm-4">
+        <span class = "glyphicon glyphicon-heart logo-small"></span>
+        <h4>Life</h4>
+        <p>Environmental friendly biotechnologies..</p>
+      </div>
+
+      <div class = "col-sm-4">
+        <span class = "glyphicon glyphicon-lock logo-small"></span>
+        <h4>Commercial Tech</h4>
+        <p>Personal solar panel, vehicle batteries..</p>
+      </div>
+    </div>
+
+    <br><br>
+    <div class = "row slideanim">
+      <div class = "col-sm-4">
+        <span class = "glyphicon glyphicon-leaf logo-small"></span>
+        <h4>GREEN</h4>
+        <p>All the techs are environmental friendly..</p>
+      </div>
+
+      <div class = "col-sm-4">
+        <span class = "glyphicon glyphicon-certificate logo-small"></span>
+        <h4>PROFESSIONAL</h4>
+        <p>Our team is highly professional and all the members are certificated..</p>
+      </div>
+
+      <div class = "col-sm-4">
+        <span class = "glyphicon glyphicon-wrench logo-small"></span>
+        <h4 style = "color:#303030;">MAINTAINCE</h4>
+        <p>We promise to proivde lifetime maintaince to our products and designs..</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Container (portfolio Section)-->
+  <div id = "portfolio" class = "container-fluid text-center bg-grey">
+    <h2>Portfolio</h2><br>
+    <h4>What we have created</h4>
+    <div class = "row text-center slideanim">
+      <div class = "col-sm-4">
+        <div class = "thumbnail">
+          <img src = "solarPanel.jpg" alt = "solarpanel" width = "400" height = "300">
+          <p><strong>Solar Power Generator</strong></p>
+          <p>On Taklimakan Desert in Xinjiang, China</p>
+        </div>
+      </div>
+
+      <div class = "col-sm-4">
+        <div class = "thumbnail">
+          <img src = "tidalTurbine.jpg" alt = "tidalturbine" width = "400" height = "300">
+          <p><strong>Tidal Energy Power Station</strong></p>
+          <p>In Tai-O of Hong Kong, China</p>
+        </div>
+      </div>
+
+      <div class = "col-sm-4">
+        <div class = "thumbnail">
+          <img src = "iPhone.jpg" alt = "iphone" width = "400" height = "300">
+          <p><strong>Solar Charger for Personal Mobile Devices</strong></p>
+          <p>Yes Tech in California, USA</p>
+        </div>
+      </div>
+    </div><br>
+
+    <h4>What we plan to do</h4>
+    <div class = "row text-center slideanim">
+      <div class = "col-sm-4">
+        <div class = "thumbnail">
+          <img src = "windTurbine.jpg" alt = "windturbine" width = "400" height = "300">
+          <p><strong>Distributed Wind Power Station</strong></p>
+          <p>In Fengxian district of Shanghai, China</p>
+        </div>
+      </div>
+
+      <div class = "col-sm-4">
+        <div class = "thumbnail">
+          <img src = "biomass.jpg" alt = "biomass" width = "400" height = "300">
+          <p><strong>Soil Remediation & Biomass Cultivation</strong></p>
+          <p>Over Alkali Soil in Gansu, China</p>
+        </div>
+      </div>
+
+      <div class = "col-sm-4">
+        <div class = "thumbnail">
+          <img src = "vehicle.jpg" alt = "vehicle" width = "400" height = "300">
+          <p><strong>Vehicle Oriented Ultraconductor</strong></p>
+          <p>Yes Tech in Aachen, Germany</p>
+        </div>
+      </div> 
+    </div><br>
+
+    <h2>What our customers say</h2>
+    <div id = "myCarousel" class = "carousel slide text-center" data-ride = "carousel">
+      <ol class = "carousel-indicators">
+        <li data-target = "#myCarousel" data-slide-to = "0" class = "active"></li>
+        <li data-target = "#myCarousel" data-slide-to = "1"></li>
+        <li data-target = "#myCarousel" data-slide-to = "2"></li>
+      </ol>
+
+      <div class = "carousel-inner" role = "listbox">
+        <div class = "item active">
+          <h4>"Yes Tech is the promise of key technology, high quality and environmental friendly."</h4>
+          <h4>Don CHEN, CEO, Don Dynasty School of Computer Science</h4>
+        </div>
+        <div class = "item">
+          <h4>"It's hard to find someone else who can provide more professional service in renewable energy technologies than Yes."</h4>
+          <h4>Ryuji Ito, Adjunct Professor, Technical University of Munich</h4>
+        </div>
+        <div class = "item">
+          <h4>"One word to describe Yes is...AWESOME!"</h4>
+          <h4>Hai Tang, PhD Student, Carnegie Mellon University</h4>
+        </div>
+      </div>
+
+      <!--Left and right controls-->
+      <a class = "left carousel-control" href = "#myCarousel" role = "button"
+      data-slide = "prev">
+        <span class = "glyphicon glyphicon-chevron-left" aria-hidden = "true"></span>
+        <span class = "sr-only">Previous</span>
+      </a>
+
+      <a class = "right carousel-control" href = "#myCarousel" role = "button"
+      data-slide = "next">
+        <span class = "glyphicon glyphicon-chevron-right" aria-hidden = "true"></span>
+        <span class = "sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+
+  <!--Container (Pricing Section) -->
+  <div id = "pricing" class = "container-fluid">
+    <div class = "text-center">
+      <h2>Pricing</h2>
+      <h4>Choose a service plan that works for you</h4>
+    </div>
+    <div class = "row slideanim">
+      <div class = "col-sm-4 col-xs-12">
+        <div class = "panel panel-default text-center">
+          <div class = "panel-heading">
+            <h1>Commercial Solar Panel</h1>
+          </div>
+          <div class = "panel-body">
+            <p><strong>1810 ~ 4250</strong> mAH</p>
+            <p><strong>5.1 ~ 20</strong> Volt</p>
+            <p><strong>5</strong> devices</p>
+            <p><strong>2</strong> slots</p>
+            <p><strong>Lifetime</strong> maintaince</p>
+          </div>
+
+          <div class = "panel-footer">
+            <h3>$30.99</h3>
+            <h4>per unit</h4>
+            <button class = "btn btn-lg">Buy now 1-Click</button>
+          </div>
+        </div>
+      </div>
+
+      <div class = "col-sm-4 col-xs-12">
+        <div class = "panel panel-default text-center">
+          <div class = "panel-heading">
+            <h1>Large-scale Engineering</h1>
+          </div>
+          <div class = "panel-body">
+            <p><strong>Tidal</strong> Power Station</p>
+            <p><strong>Solar</strong> Panel Groups</p>
+            <p><strong>Wind</strong> Turbine Installation</p>
+            <p><strong>Distributed</strong> Power System Design</p>
+            <p><strong>Power</strong> Station Maintaince</p>
+          </div>
+
+          <div class = "panel-footer">
+            <h3>From $300</h3>
+            <h4>per person per day</h4>
+            <button class = "btn btn-lg">Online Assessment</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--container (Contact Section)-->
+  <div id = "contact" class = "container-fluid bg-grey">
+    <h2 class = "text-center">CONTACT US</h2>
+    <div class = "row">
+      <div class = "col-sm-5">
+        <p>Contact us and we will get back to you within 24 hrs.</p>
+        <p><span class = "glyphicon glyphicon-map-marker"></span>Aachen High Tech Park</p>
+        <p><span class = "glyphicon glyphicon-phone"></span> +49 241 802</p>
+        <p><span class = "glyphicon glyphicon-envelope"></span> contact@yestech.com</p>
+      </div>
+      <div class = "col-sm-7 slideanim">
+        <div class = "row">
+          <div class = "col-sm-6 form-group">
+            <input class = "form-control" id = "name" name = "name" placeholder = "Name" type = "text" required>
+          </div>
+          <div class = "col-sm-6 form-group">
+            <input class = "form-control" id = "email" name = "email" placeholder = "Email" type = "email" required>
+          </div>
+        </div>
+        <textarea class = "form-control" id = "comments" name = "comments" placeholder = "Comment" rows = "5"></textarea><br>
+        <div class = "row">
+          <div class = "col-sm-12 form-group">
+            <button class = "btn btn-default pull-right" type = "submit">Send</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id = "googleMap" style = "height:400px;width:100%;"></div>
+
+  <!-- Add Google Maps -->
+  <script src="http://maps.googleapis.com/maps/api/js"></script>
+  <script>
+  var myCenter = new google.maps.LatLng(50.77886, 6.05991);
+
+  function initialize(){
+    var mapProp = {
+      center:myCenter,
+      zoom:12,
+      scrollwheel:false,
+      draggable:false,
+      mapTypeId:google.maps.MapTypeId.ROADMAP
+    };
+
+    var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+    var marker = new google.maps.Marker({
+      position:myCenter,
+    });
+
+    marker.setMap(map);
+  }
+  google.maps.event.addDomListener(window,'load',initialize);
+  </script>
+
+  <footer class = "container-fluid text-center">
+    <a href = "#myPage" title = "To Top">
+      <span class = "glyphicon glyphicon-chevron-up"></span>
+    </a>
+    <p>Copyright of Shujie CHEN. <a href = "/Users/donnice/documents/computer science/internet/css/float6.html">See personal page</a></p>
+  </footer>
+
+  <script>
+  $(document).ready(function(){
+    //Add smooth scrolling
+    $(".navbar a, footer a[href = '#mypage']").on('click',function(event){
+      //Prevent default anchor click behavior
+      event.preventDefault();
+
+      //Store hash
+      var hash = this.hash;
+
+      $('html,body').animate({
+        scrollTop:$(hash).offset().top
+      },900,function(){
+        window.location.hash = hash;
+      });
+    });
+
+    $(window).scroll(function(){
+      $(".slideanim").each(function(){
+        var pos = $(this).offset().top;
+
+        var winTop = $(window).scrollTop();
+        if(pos < winTop + 600){
+          $(this).addClass("slide");
+        }
+      });
+    });
+  })
+  </script>
+
+</body>
+</html>
+
+
+
